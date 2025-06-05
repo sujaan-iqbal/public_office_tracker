@@ -1,88 +1,106 @@
+/* Dark Theme Styles */
+
 /* Main content */
 .stApp {
-    background-color: #ffffff;
-    color: #333333;
+    background-color: #121212 !important;
+    color: #ffffff !important;
 }
 
 /* Headers */
 h1 {
-    color: #1a3e72;
+    color: #64b5f6 !important;
     font-weight: 700;
-    border-bottom: 2px solid #1a3e72;
+    border-bottom: 2px solid #64b5f6;
     padding-bottom: 10px;
 }
 
 h2 {
-    color: #2a4e8a;
+    color: #90caf9 !important;
+}
+
+h3 {
+    color: #bbdefb !important;
 }
 
 /* Sidebar */
 .css-1d391kg {
-    background-color: #1a3e72 !important;
+    background-color: #1e1e1e !important;
     color: white !important;
 }
 
 .sidebar .sidebar-content {
-    background-color: #1a3e72;
+    background-color: #1e1e1e !important;
+    border-right: 1px solid #333;
 }
 
 /* Buttons */
 .stButton>button {
-    background-color: #1a3e72;
+    background-color: #1976d2 !important;
     color: white !important;
     border-radius: 6px;
     padding: 8px 16px;
-    border: 2px solid #1a3e72;
+    border: 2px solid #1976d2 !important;
     font-weight: 600;
     transition: all 0.3s ease;
 }
 
 .stButton>button:hover {
-    background-color: #0d2b56 !important;
-    border-color: #0d2b56;
+    background-color: #0d47a1 !important;
+    border-color: #0d47a1 !important;
     transform: translateY(-1px);
-    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 
 /* Dataframes */
 .stDataFrame {
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    border: 1px solid #333 !important;
+    background-color: #1e1e1e !important;
+    color: white !important;
+}
+
+/* Tables */
+table {
+    color: white !important;
 }
 
 /* Tabs */
 .stTabs [data-baseweb="tab-list"] {
     gap: 12px;
     margin-bottom: 20px;
+    background-color: #1e1e1e !important;
 }
 
 .stTabs [data-baseweb="tab"] {
     padding: 12px 24px;
     border-radius: 8px 8px 0 0;
-    background-color: #e6e6e6;
-    color: #333;
+    background-color: #333 !important;
+    color: #bbdefb !important;
     font-weight: 600;
-    border: 1px solid #ccc;
+    border: 1px solid #444 !important;
     transition: all 0.3s ease;
 }
 
 .stTabs [aria-selected="true"] {
-    background-color: #1a3e72 !important;
+    background-color: #1976d2 !important;
     color: white !important;
-    border-color: #1a3e72;
-    box-shadow: 0 4px 8px rgba(26, 62, 114, 0.2);
+    border-color: #1976d2 !important;
+    box-shadow: 0 4px 8px rgba(25, 118, 210, 0.3);
 }
 
 /* Cards and containers */
 .stAlert, .stExpander {
     border-radius: 8px !important;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1) !important;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3) !important;
+    background-color: #1e1e1e !important;
+    border: 1px solid #333 !important;
+    color: white !important;
 }
 
 /* Text elements */
 .stMarkdown {
-    color: #333;
+    color: #e0e0e0 !important;
     line-height: 1.6;
 }
 
@@ -90,7 +108,9 @@ h2 {
 .stTextInput>div>div>input,
 .stSelectbox>div>div>select,
 .stTextArea>div>textarea {
-    border: 2px solid #ddd !important;
+    background-color: #1e1e1e !important;
+    color: white !important;
+    border: 2px solid #333 !important;
     border-radius: 6px !important;
     padding: 10px !important;
 }
@@ -98,6 +118,70 @@ h2 {
 .stTextInput>div>div>input:focus,
 .stSelectbox>div>div>select:focus,
 .stTextArea>div>textarea:focus {
-    border-color: #1a3e72 !important;
-    box-shadow: 0 0 0 2px rgba(26, 62, 114, 0.2) !important;
+    border-color: #64b5f6 !important;
+    box-shadow: 0 0 0 2px rgba(100, 181, 246, 0.3) !important;
+}
+
+/* Select dropdowns */
+.stSelectbox>div>div>div>div {
+    color: white !important;
+    background-color: #1e1e1e !important;
+}
+
+/* Checkboxes */
+.stCheckbox>label {
+    color: white !important;
+}
+
+/* Radio buttons */
+.stRadio>label {
+    color: white !important;
+}
+
+/* Metric cards */
+.stMetric {
+    background-color: #1e1e1e !important;
+    border: 1px solid #333 !important;
+    border-radius: 8px !important;
+}
+
+/* Code blocks */
+.stCodeBlock {
+    background-color: #1e1e1e !important;
+    border: 1px solid #333 !important;
+    border-radius: 8px !important;
+}
+
+/* Links */
+a {
+    color: #64b5f6 !important;
+}
+
+/* Hover states */
+a:hover {
+    color: #90caf9 !important;
+}
+
+/* Info boxes */
+.stInfo {
+    background-color: #0d47a1 !important;
+    color: white !important;
+}
+
+/* Warning boxes */
+.stWarning {
+    background-color: #ff6f00 !important;
+    color: white !important;
+}
+
+/* Error boxes */
+.stError {
+    background-color: #c62828 !important;
+    color: white !important;
+}
+
+/* Success boxes */
+.stSuccess {
+    background-color: #2e7d32 !important;
+    color: white !important;
 }
