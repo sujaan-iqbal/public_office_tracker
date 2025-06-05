@@ -1,0 +1,103 @@
+/* Main content */
+.stApp {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Headers */
+h1 {
+    color: #1a3e72;
+    font-weight: 700;
+    border-bottom: 2px solid #1a3e72;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #2a4e8a;
+}
+
+/* Sidebar */
+.css-1d391kg {
+    background-color: #1a3e72 !important;
+    color: white !important;
+}
+
+.sidebar .sidebar-content {
+    background-color: #1a3e72;
+}
+
+/* Buttons */
+.stButton>button {
+    background-color: #1a3e72;
+    color: white !important;
+    border-radius: 6px;
+    padding: 8px 16px;
+    border: 2px solid #1a3e72;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    background-color: #0d2b56 !important;
+    border-color: #0d2b56;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+/* Dataframes */
+.stDataFrame {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    border: 1px solid #ddd;
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    padding: 12px 24px;
+    border-radius: 8px 8px 0 0;
+    background-color: #e6e6e6;
+    color: #333;
+    font-weight: 600;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #1a3e72 !important;
+    color: white !important;
+    border-color: #1a3e72;
+    box-shadow: 0 4px 8px rgba(26, 62, 114, 0.2);
+}
+
+/* Cards and containers */
+.stAlert, .stExpander {
+    border-radius: 8px !important;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1) !important;
+}
+
+/* Text elements */
+.stMarkdown {
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Input widgets */
+.stTextInput>div>div>input,
+.stSelectbox>div>div>select,
+.stTextArea>div>textarea {
+    border: 2px solid #ddd !important;
+    border-radius: 6px !important;
+    padding: 10px !important;
+}
+
+.stTextInput>div>div>input:focus,
+.stSelectbox>div>div>select:focus,
+.stTextArea>div>textarea:focus {
+    border-color: #1a3e72 !important;
+    box-shadow: 0 0 0 2px rgba(26, 62, 114, 0.2) !important;
+}

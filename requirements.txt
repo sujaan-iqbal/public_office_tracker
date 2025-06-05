@@ -1,0 +1,8 @@
+
+jsonschema
+pandas
+requests
+python-dotenv
+streamlit
+plotly
+altair

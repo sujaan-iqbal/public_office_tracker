@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Public Official",
+  "description": "A schema for validating public official records",
+  "type": "object",
+  "properties": {
+    "officials": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 2
+          },
+          "designation": {
+            "type": "string",
+            "minLength": 2
+          },
+          "jurisdiction": {
+            "type": "string"
+          },
+          "party": {
+            "type": "string"
+          },
+          "social_media": {
+            "type": "object",
+            "properties": {
+              "twitter": {
+                "type": "string",
+                "pattern": "^@[a-zA-Z0-9_]{1,15}$|^https://twitter.com/[a-zA-Z0-9_]{1,15}$|^$"
+              },
+              "facebook": {
+                "type": "string",
+                "pattern": "^https://www.facebook.com/[a-zA-Z0-9.]+$|^$"
+              },
+              "instagram": {
+                "type": "string",
+                "pattern": "^@[a-zA-Z0-9_]+$|^https://www.instagram.com/[a-zA-Z0-9_]+/$|^$"
+              }
+            },
+            "additionalProperties": false
+          },
+          "contact": {
+            "type": "object",
+            "properties": {
+              "email": {
+                "type": "string",
+                "format": "email"
+              },
+              "phone": {
+                "type": "string",
+                "pattern": "^[+]?[0-9]{10,15}$|^$"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "required": ["name", "designation", "jurisdiction"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["officials"]
+}

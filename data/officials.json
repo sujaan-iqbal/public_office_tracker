@@ -1,0 +1,37 @@
+{
+  "officials": [
+    {
+      "name": "Alexandria Ocasio-Cortez",
+      "designation": "U.S. Representative",
+      "jurisdiction": "New York's 14th congressional district",
+      "party": "Democratic",
+      "social_media": {
+        "twitter": "https://twitter.com/AOC",
+        "instagram": "@aoc"
+      },
+      "contact": {
+        "email": "rep.aoc@mail.house.gov",
+        "phone": "+12022252255"
+      }
+    },
+    {
+      "name": "Mitch McConnell",
+      "designation": "U.S. Senator",
+      "jurisdiction": "Kentucky",
+      "party": "Republican",
+      "social_media": {
+        "twitter": "@McConnellPress"
+      }
+    },
+    {
+      "name": "Gavin Newsom",
+      "designation": "Governor",
+      "jurisdiction": "California",
+      "party": "Democratic",
+      "social_media": {
+        "twitter": "@GavinNewsom",
+        "facebook": "https://www.facebook.com/GavinNewsom"
+      }
+    }
+  ]
+}
